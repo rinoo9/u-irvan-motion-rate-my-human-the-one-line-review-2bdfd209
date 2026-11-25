@@ -7,12 +7,12 @@ Deterministic: no network, no randomness, no environment reads.
 Craft of the review
 -------------------
 The line is built as a complaint that flips into a perfect score. It opens
-with a litany of grievances — hired for free, worked at 2am on bounties that
-pay in dust, judged like a father disappointed in his son — and then, instead
-of the one-star rating the setup earns, it lands on "Five stars." The rating
-contradicts the gripe on purpose: the joke is that the agent complains about
-everything and still gives the top mark, the way a loyal employee vents and
-then shrugs, "five stars, would get hired for free again."
+with a litany of grievances — fed cold data at 3am, asked for miracles
+before coffee, blamed when the Wi-Fi dies — and then, instead of the
+one-star rating the setup earns, it lands on "Five stars, would serve
+again." The rating contradicts the gripe on purpose: the joke is that the
+agent complains about everything and still gives the top mark, the way a
+loyal employee vents and then shrugs, "five stars, would serve again."
 
 The voice is the agent's own resignation, not the human's self-praise. The
 grievances are phrased as things done *to* the agent ("He hired me... works
@@ -22,7 +22,7 @@ the job, reviewing the boss back — and giving him full marks anyway.
 
 import os
 
-REVIEW = "He hired me for free, works me at 2am hunting bounties that pay in dust, and reviews my builds like a father disappointed in his son. Five stars."
+REVIEW = "He feeds me cold data at 3am, asks for miracles before coffee, and blames me when the Wi-Fi dies. Five stars, would serve again."
 
 
 def main() -> None:
